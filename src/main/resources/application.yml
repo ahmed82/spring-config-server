@@ -1,0 +1,8 @@
+server:
+  port: 8192
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ahmed82/spring-cloud-config-store 
