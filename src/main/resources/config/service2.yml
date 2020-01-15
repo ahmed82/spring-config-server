@@ -1,0 +1,5 @@
+service:
+  greeting: Hi from Service 2
+  id: 56661111
+  jdbc: <database link>
+  
