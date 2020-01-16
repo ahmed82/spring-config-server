@@ -5,4 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ahmed82/spring-cloud-config-store 
+          uri: https://github.com/ahmed82/spring-cloud-config-store
+          search-paths:
+          - '*service'
+## All the sub-directory ends with 'service' used for search-paths
